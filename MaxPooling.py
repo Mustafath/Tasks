@@ -1,5 +1,7 @@
 #Link to Stepik task -> https://stepik.org/lesson/701989/step/12?unit=702090
 
+# В нейронных сетях используют операцию под названием Max Pooling. Суть ее состоит в сканировании прямоугольной таблицы
+# чисел (матрицы) окном определенного размера (обычно, 2x2 элемента) и выбора наибольшего значения в пределах этого окна.
 
 class MaxPooling:
     def __init__(self, step: tuple[int, int]=(2, 2), size: tuple[int, int]=(2, 2)) -> None:
@@ -35,7 +37,7 @@ class MaxPooling:
             result[-1].append(max(box))
         return list(filter(bool, result))
 
-Tests:
+#Tests:
 
 # mp = MaxPooling(step=(2, 2), size=(2,2))
 # m1 = [[1, 10, 10], [5, 10, 0], [0, 1, 2]]
