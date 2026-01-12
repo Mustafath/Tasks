@@ -1,4 +1,4 @@
-Link to Stepik task -> https://stepik.org/lesson/701989/step/12?unit=702090
+#Link to Stepik task -> https://stepik.org/lesson/701989/step/12?unit=702090
 
 
 class MaxPooling:
